@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@mipmap/bg_weather_day"
+
+    android:gravity="center"
+    android:layout_height="200dp">
+    <TextView
+        android:text="18"
+        android:textSize="40sp"
+        android:textColor="@android:color/white"
+        android:id="@+id/tv_temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/space"
+      />
+     <LinearLayout
+         android:orientation="vertical"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content">
+          <TextView
+              android:text="杭州"
+              android:textColor="@android:color/white"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="@dimen/ts_large"/>
+          <TextView
+              android:text="晴 东南风"
+              android:textColor="@android:color/white"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="@dimen/ts_large"/>
+     </LinearLayout>
+     <ImageView
+         android:src="@mipmap/ic_launcher"
+         android:layout_width="@dimen/space_x4"
+         android:layout_height="@dimen/space_x4" />
+</LinearLayout>

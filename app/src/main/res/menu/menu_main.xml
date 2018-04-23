@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/icon_group"
+        android:checkableBehavior="all">
+        <item
+            android:id="@+id/item_weixin"
+            android:icon="@drawable/ic_tip"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/item_one"
+            android:icon="@drawable/ic_tip"
+            android:title="@string/one" />
+        <item
+            android:id="@+id/item_ganhot"
+            android:icon="@drawable/ic_tip"
+            android:title="@string/gan_hot" />
+        <item
+            android:id="@+id/item_eye_petizer"
+            android:icon="@drawable/ic_tip"
+            android:title="@string/eye_petizer" />
+        <item
+            android:id="@+id/item_collect"
+            android:icon="@drawable/ic_tip"
+            android:title="@string/collect" />
+    </group>
+    <group
+        android:id="@+id/icon_setting"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/item_setting"
+            android:icon="@mipmap/ic_setting"
+            android:title="@string/setting" />
+        <item
+            android:id="@+id/item_about"
+            android:icon="@mipmap/ic_about"
+            android:title="@string/about" />
+    </group>
+</menu>
